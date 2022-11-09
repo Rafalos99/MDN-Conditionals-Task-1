@@ -4,7 +4,7 @@ let machineActive = true;
 
 // Add your code here
 if (machineActive === true) {
-    if (score <0 || score > 100) {
+    if (score <0 && score > 100) {
         response = 'This is not possible, an error has occurred'
     } else if (score >= 0 && score <= 19) {
         response = 'That was a terrible score - total fail!'        
